@@ -1,0 +1,14 @@
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.Properties.Resources.resources
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\bin\Debug\SplitBuddies.App.exe.config
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\bin\Debug\SplitBuddies.App.exe
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\bin\Debug\SplitBuddies.App.pdb
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBud.0BFE25AA.Up2Date
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.exe
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.pdb
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.exe.config
+C:\Users\Dell\source\repos\SplitBuddies.App\SplitBuddies.App\obj\Debug\SplitBuddies.App.frmDashboard.resources
