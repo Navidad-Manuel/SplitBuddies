@@ -1,42 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Program.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Program.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Services\\DataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Services\\DataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Services\\BalanceService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Services\\BalanceService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|c:\\users\\dell\\source\\repos\\splitbuddies.app\\splitbuddies.app\\services\\balanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\services\\balanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\Group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Models\\Group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\Expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Models\\Expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\splitbuddies.app\\views\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\views\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmExpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Views\\frmExpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\splitbuddies.app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\splitbuddies.app\\views\\frmgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\views\\frmgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Views\\frmUsers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\splitbuddies.app\\views\\frmreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\views\\frmreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|c:\\users\\dell\\desktop\\documentacion\\splitbuddies.app01\\splitbuddies.app\\splitbuddies.app\\views\\frmreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\views\\frmreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\splitbuddies.app\\views\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\views\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\splitbuddies.app\\views\\frmexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:splitbuddies.app\\views\\frmexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Views\\frmMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmGroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD041214-1E20-4934-AAC2-58D5F71F3A78}|SplitBuddies.App\\SplitBuddies.App.csproj|solutionrelative:SplitBuddies.App\\Views\\frmGroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,119 +74,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\frmDashboard.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\frmDashboard.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\frmDashboard.cs [Design]",
-              "RelativeToolTip": "SplitBuddies.App\\frmDashboard.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "frmUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmUsers.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmUsers.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmUsers.cs [Design]",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmUsers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T00:32:53.67Z",
+              "WhenOpened": "2025-07-24T03:13:07.878Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\frmDashboard.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\frmDashboard.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\frmDashboard.cs",
-              "RelativeToolTip": "SplitBuddies.App\\frmDashboard.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\Expense.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T01:37:12.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\frmDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\frmDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\frmDashboard.Designer.cs",
-              "RelativeToolTip": "SplitBuddies.App\\frmDashboard.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T23:33:50.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Program.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\Program.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Program.cs",
-              "RelativeToolTip": "SplitBuddies.App\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T22:38:38.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BalanceService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Services\\BalanceService.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\Services\\BalanceService.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Services\\BalanceService.cs",
-              "RelativeToolTip": "SplitBuddies.App\\Services\\BalanceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T22:54:52.659Z",
+              "WhenOpened": "2025-07-21T02:34:20.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DataService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Services\\DataService.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\Services\\DataService.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Services\\DataService.cs",
-              "RelativeToolTip": "SplitBuddies.App\\Services\\DataService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwAgAAAAcAAAAAAAAAA==",
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\Group.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T22:28:03.616Z"
+              "WhenOpened": "2025-07-21T02:34:22.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Models\\Expense.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\Models\\Expense.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Models\\Expense.cs",
-              "RelativeToolTip": "SplitBuddies.App\\Models\\Expense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Models\\User.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:47:13.903Z"
+              "WhenOpened": "2025-07-21T02:36:02.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BalanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Services\\BalanceService.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Services\\BalanceService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Services\\BalanceService.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Services\\BalanceService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:34:31.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Services\\DataService.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Services\\DataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:34:32.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Program.cs.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Program.cs.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Program.cs.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Program.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T03:58:13.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Models\\Group.cs",
-              "RelativeToolTip": "SplitBuddies.App\\Models\\Group.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Title": "frmExpenses.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmExpenses.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmExpenses.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmExpenses.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmExpenses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:43:27.074Z"
+              "WhenOpened": "2025-07-25T03:14:14.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SplitBuddies.App\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\SplitBuddies.App\\SplitBuddies.App\\Models\\User.cs",
-              "RelativeToolTip": "SplitBuddies.App\\Models\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "frmGroups.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmGroups.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmGroups.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmGroups.cs [Design]",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmGroups.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:37:27.345Z"
+              "WhenOpened": "2025-07-24T03:14:10.924Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmUsers.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmUsers.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmUsers.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:28:23.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmReports.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmReports.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmReports.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmReports.cs [Design]",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmReports.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T03:15:15.105Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmReports.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmReports.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmReports.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmReports.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmReports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T04:00:13.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmMain.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmMain.cs [Design]",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T05:20:00.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmExpenses.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmExpenses.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmExpenses.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmExpenses.cs [Design]",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmExpenses.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T03:14:28.96Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmMain.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmMain.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmMain.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmMain.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T04:43:42.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmGroups.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmGroups.cs",
+              "RelativeDocumentMoniker": "SplitBuddies.App\\Views\\frmGroups.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Documentacion\\SplitBuddies.App01\\SplitBuddies.App\\SplitBuddies.App\\Views\\frmGroups.cs",
+              "RelativeToolTip": "SplitBuddies.App\\Views\\frmGroups.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T00:20:25.983Z",
+              "EditorCaption": ""
             }
           ]
         }

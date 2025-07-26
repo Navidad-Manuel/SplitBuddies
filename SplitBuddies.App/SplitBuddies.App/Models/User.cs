@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Archivo: Models/User.cs
+using Newtonsoft.Json;
 
 namespace SplitBuddies.App.Models
 {
     public class User
     {
+        [JsonProperty("id")]
         public int Id { get; set; }
+        [JsonProperty("name")]
         public string Name { get; set; }
+        [JsonProperty("email")]
         public string Email { get; set; }
-
-        // Para que se vea bien en los ComboBox
         public override string ToString() => Name;
     }
 }

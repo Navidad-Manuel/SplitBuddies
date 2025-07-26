@@ -1,16 +1,19 @@
-﻿using Newtonsoft.Json;
+﻿// Archivo: Services/DataService.cs
+using Newtonsoft.Json;
 using SplitBuddies.App.Models;
 
 using System.Collections.Generic;
 using System.IO;
+using System.Windows.Forms;
 
-namespace SplitBuddies.Services
+namespace SplitBuddies.App.Services
 {
     public class DataService
     {
         private static DataService _instance;
         public static DataService Instance => _instance ?? (_instance = new DataService());
 
+        private const string DataFolder = "Data";
         private const string UsersFile = "users.json";
         private const string GroupsFile = "groups.json";
         private const string ExpensesFile = "expenses.json";
@@ -21,29 +24,46 @@ namespace SplitBuddies.Services
 
         private DataService()
         {
-            Users = Load<User>(UsersFile);
-            Groups = Load<Group>(GroupsFile);
-            Expenses = Load<Expense>(ExpensesFile);
+            if (!Directory.Exists(DataFolder)) Directory.CreateDirectory(DataFolder);
+            Users = Load<User>(Path.Combine(DataFolder, UsersFile));
+            Groups = Load<Group>(Path.Combine(DataFolder, GroupsFile));
+            Expenses = Load<Expense>(Path.Combine(DataFolder, ExpensesFile));
         }
 
         public void SaveChanges()
         {
-            Save(UsersFile, Users);
-            Save(GroupsFile, Groups);
-            Save(ExpensesFile, Expenses);
+            Save(Path.Combine(DataFolder, UsersFile), Users);
+            Save(Path.Combine(DataFolder, GroupsFile), Groups);
+            Save(Path.Combine(DataFolder, ExpensesFile), Expenses);
         }
 
-        private static List<T> Load<T>(string file)
+        private List<T> Load<T>(string filePath)
         {
-            if (!File.Exists(file)) return new List<T>();
-            var json = File.ReadAllText(file);
-            return JsonConvert.DeserializeObject<List<T>>(json) ?? new List<T>();
+            if (!File.Exists(filePath)) return new List<T>();
+            try
+            {
+                var json = File.ReadAllText(filePath);
+                if (string.IsNullOrWhiteSpace(json)) return new List<T>();
+                return JsonConvert.DeserializeObject<List<T>>(json) ?? new List<T>();
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show($"Error cargando {filePath}: {ex.Message}");
+                return new List<T>();
+            }
         }
 
-        private static void Save<T>(string file, List<T> data)
+        private void Save<T>(string filePath, List<T> data)
         {
-            var json = JsonConvert.SerializeObject(data, Formatting.Indented);
-            File.WriteAllText(file, json);
+            try
+            {
+                var json = JsonConvert.SerializeObject(data, Formatting.Indented);
+                File.WriteAllText(filePath, json);
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show($"Error guardando en {filePath}: {ex.Message}");
+            }
         }
     }
 }
