@@ -38,9 +38,12 @@
             this.btnCreateGroup = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvGroups = new System.Windows.Forms.DataGridView();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lbGroupBalances = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGroups)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -123,7 +126,7 @@
             this.groupBox2.Controls.Add(this.dgvGroups);
             this.groupBox2.Location = new System.Drawing.Point(12, 138);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(728, 300);
+            this.groupBox2.Size = new System.Drawing.Size(513, 300);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Grupos Existentes";
@@ -134,14 +137,34 @@
             this.dgvGroups.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvGroups.Location = new System.Drawing.Point(3, 16);
             this.dgvGroups.Name = "dgvGroups";
-            this.dgvGroups.Size = new System.Drawing.Size(722, 281);
+            this.dgvGroups.Size = new System.Drawing.Size(507, 281);
             this.dgvGroups.TabIndex = 0;
+            this.dgvGroups.SelectionChanged += new System.EventHandler(this.dgvGroups_SelectionChanged_1);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.lbGroupBalances);
+            this.groupBox3.Location = new System.Drawing.Point(531, 154);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(260, 281);
+            this.groupBox3.TabIndex = 8;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Balance Detallado del Grupo";
+            // 
+            // lbGroupBalances
+            // 
+            this.lbGroupBalances.FormattingEnabled = true;
+            this.lbGroupBalances.Location = new System.Drawing.Point(6, 26);
+            this.lbGroupBalances.Name = "lbGroupBalances";
+            this.lbGroupBalances.Size = new System.Drawing.Size(248, 251);
+            this.lbGroupBalances.TabIndex = 0;
             // 
             // frmGroups
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmGroups";
@@ -151,6 +174,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGroups)).EndInit();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -167,5 +191,7 @@
         private System.Windows.Forms.Button btnCreateGroup;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvGroups;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ListBox lbGroupBalances;
     }
 }

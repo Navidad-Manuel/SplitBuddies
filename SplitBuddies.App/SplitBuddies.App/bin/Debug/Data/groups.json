@@ -1,32 +1,354 @@
 [
-  { "Id": 1, "Name": "Piso Compartido Centro", "ImagePath": "images/piso1.png", "MemberIds": [1, 5, 10, 15] },
-  { "Id": 2, "Name": "Viaje a Roma", "ImagePath": "images/viaje_italia.png", "MemberIds": [2, 6, 12, 18, 24] },
-  { "Id": 3, "Name": "Equipo de Fútbol Sala", "ImagePath": "images/futbol.png", "MemberIds": [3, 7, 13, 19, 25, 30] },
-  { "Id": 4, "Name": "Cena de Navidad 2023", "ImagePath": "images/navidad.png", "MemberIds": [4, 8, 14, 20, 26] },
-  { "Id": 5, "Name": "Club de Lectura", "ImagePath": "images/libros.png", "MemberIds": [9, 11, 16, 21, 27] },
-  { "Id": 6, "Name": "Vacaciones en la Montaña", "ImagePath": "images/montana.png", "MemberIds": [1, 2, 3, 4] },
-  { "Id": 7, "Name": "Proyecto Universidad", "ImagePath": "images/uni.png", "MemberIds": [17, 22, 28, 33] },
-  { "Id": 8, "Name": "Compañeros de Oficina", "ImagePath": "images/oficina.png", "MemberIds": [34, 35, 36, 37, 38] },
-  { "Id": 9, "Name": "Fin de Semana Rural", "ImagePath": "images/rural.png", "MemberIds": [39, 40, 41, 42, 43] },
-  { "Id": 10, "Name": "Regalo Cumpleaños Laura", "ImagePath": "images/regalo.png", "MemberIds": [8, 9, 10, 11] },
-  { "Id": 11, "Name": "Amigos del Gimnasio", "ImagePath": "images/gym.png", "MemberIds": [44, 45, 46, 47, 48, 49, 50] },
-  { "Id": 12, "Name": "Concierto Rock Fest", "ImagePath": "images/concierto.png", "MemberIds": [2, 4, 6, 8] },
-  { "Id": 13, "Name": "Barbacoa Familiar", "ImagePath": "images/bbq.png", "MemberIds": [1, 3, 5, 7, 9] },
-  { "Id": 14, "Name": "Gastos del Hogar (Familia Pérez)", "ImagePath": "images/hogar.png", "MemberIds": [5, 23, 29] },
-  { "Id": 15, "Name": "Viaje a Lisboa", "ImagePath": "images/viaje_portugal.png", "MemberIds": [10, 20, 30, 40, 50] },
-  { "Id": 16, "Name": "Despedida de Soltero/a", "ImagePath": "images/despedida.png", "MemberIds": [6, 12, 24, 36, 48] },
-  { "Id": 17, "Name": "Cine y Palomitas", "ImagePath": "images/cine.png", "MemberIds": [13, 14, 15, 16] },
-  { "Id": 18, "Name": "Curso de Cocina", "ImagePath": "images/cocina.png", "MemberIds": [1, 11, 21, 31, 41] },
-  { "Id": 19, "Name": "Piso de Estudiantes", "ImagePath": "images/piso2.png", "MemberIds": [19, 22, 28, 32] },
-  { "Id": 20, "Name": "Festival de Verano", "ImagePath": "images/festival.png", "MemberIds": [7, 17, 27, 37, 47] },
-  { "Id": 21, "Name": "Equipo de Baloncesto", "ImagePath": "images/baloncesto.png", "MemberIds": [2, 4, 26, 34, 38, 42, 46] },
-  { "Id": 22, "Name": "Viaje a la Playa", "ImagePath": "images/playa.png", "MemberIds": [3, 23, 33, 43, 49] },
-  { "Id": 23, "Name": "Salidas de los Jueves", "ImagePath": "images/jueves.png", "MemberIds": [5, 15, 25, 35, 45] },
-  { "Id": 24, "Name": "Club de Senderismo", "ImagePath": "images/senderismo.png", "MemberIds": [8, 16, 24, 32, 40, 48] },
-  { "Id": 25, "Name": "Proyecto de Software", "ImagePath": "images/software.png", "MemberIds": [4, 18, 22, 36] },
-  { "Id": 26, "Name": "Compañeros de Viaje (Asia)", "ImagePath": "images/asia.png", "MemberIds": [9, 29, 39] },
-  { "Id": 27, "Name": "Banda de Música", "ImagePath": "images/banda.png", "MemberIds": [12, 20, 34, 44] },
-  { "Id": 28, "Name": "Grupo de Voluntariado", "ImagePath": "images/voluntariado.png", "MemberIds": [1, 23, 45, 50] },
-  { "Id": 29, "Name": "Cenas mensuales", "ImagePath": "images/cenas.png", "MemberIds": [11, 22, 33, 44, 49] },
-  { "Id": 30, "Name": "Escapada a la Nieve", "ImagePath": "images/nieve.png", "MemberIds": [6, 16, 26, 36, 46] }
+  {
+    "id": 1,
+    "name": "Piso Compartido Centro",
+    "imagePath": "images/piso1.png",
+    "memberIds": [
+      1,
+      5,
+      10,
+      15
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Viaje a Roma",
+    "imagePath": "images/viaje_italia.png",
+    "memberIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Equipo de Fútbol Sala",
+    "imagePath": "images/futbol.png",
+    "memberIds": [
+      3,
+      7,
+      13,
+      19,
+      25,
+      30
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Cena de Navidad 2023",
+    "imagePath": "images/navidad.png",
+    "memberIds": [
+      4,
+      8,
+      14,
+      20,
+      26
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Club de Lectura",
+    "imagePath": "images/libros.png",
+    "memberIds": [
+      9,
+      11,
+      16,
+      21,
+      27
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Vacaciones en la Montaña",
+    "imagePath": "images/montana.png",
+    "memberIds": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Proyecto Universidad",
+    "imagePath": "images/uni.png",
+    "memberIds": [
+      17,
+      22,
+      28,
+      33
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Compañeros de Oficina",
+    "imagePath": "images/oficina.png",
+    "memberIds": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Fin de Semana Rural",
+    "imagePath": "images/rural.png",
+    "memberIds": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Regalo Cumpleaños Laura",
+    "imagePath": "images/regalo.png",
+    "memberIds": [
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Amigos del Gimnasio",
+    "imagePath": "images/gym.png",
+    "memberIds": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Concierto Rock Fest",
+    "imagePath": "images/concierto.png",
+    "memberIds": [
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Barbacoa Familiar",
+    "imagePath": "images/bbq.png",
+    "memberIds": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Gastos del Hogar (Familia Pérez)",
+    "imagePath": "images/hogar.png",
+    "memberIds": [
+      5,
+      23,
+      29
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Viaje a Lisboa",
+    "imagePath": "images/viaje_portugal.png",
+    "memberIds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Despedida de Soltero/a",
+    "imagePath": "images/despedida.png",
+    "memberIds": [
+      6,
+      12,
+      24,
+      36,
+      48
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Cine y Palomitas",
+    "imagePath": "images/cine.png",
+    "memberIds": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Curso de Cocina",
+    "imagePath": "images/cocina.png",
+    "memberIds": [
+      1,
+      11,
+      21,
+      31,
+      41
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Piso de Estudiantes",
+    "imagePath": "images/piso2.png",
+    "memberIds": [
+      19,
+      22,
+      28,
+      32
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Festival de Verano",
+    "imagePath": "images/festival.png",
+    "memberIds": [
+      7,
+      17,
+      27,
+      37,
+      47
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Equipo de Baloncesto",
+    "imagePath": "images/baloncesto.png",
+    "memberIds": [
+      2,
+      4,
+      26,
+      34,
+      38,
+      42,
+      46
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Viaje a la Playa",
+    "imagePath": "images/playa.png",
+    "memberIds": [
+      3,
+      23,
+      33,
+      43,
+      49
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Salidas de los Jueves",
+    "imagePath": "images/jueves.png",
+    "memberIds": [
+      5,
+      15,
+      25,
+      35,
+      45
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Club de Senderismo",
+    "imagePath": "images/senderismo.png",
+    "memberIds": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Proyecto de Software",
+    "imagePath": "images/software.png",
+    "memberIds": [
+      4,
+      18,
+      22,
+      36
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Compañeros de Viaje (Asia)",
+    "imagePath": "images/asia.png",
+    "memberIds": [
+      9,
+      29,
+      39
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Banda de Música",
+    "imagePath": "images/banda.png",
+    "memberIds": [
+      12,
+      20,
+      34,
+      44
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Grupo de Voluntariado",
+    "imagePath": "images/voluntariado.png",
+    "memberIds": [
+      1,
+      23,
+      45,
+      50
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Cenas mensuales",
+    "imagePath": "images/cenas.png",
+    "memberIds": [
+      11,
+      22,
+      33,
+      44,
+      49
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Escapada a la Nieve",
+    "imagePath": "images/nieve.png",
+    "memberIds": [
+      6,
+      16,
+      26,
+      36,
+      46
+    ]
+  }
 ]

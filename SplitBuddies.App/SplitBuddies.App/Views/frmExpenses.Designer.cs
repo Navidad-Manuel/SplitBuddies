@@ -122,11 +122,17 @@
             // 
             // numExpenseAmount
             // 
-            this.numExpenseAmount.DecimalPlaces = 2;
+            this.numExpenseAmount.DecimalPlaces = 3;
             this.numExpenseAmount.Location = new System.Drawing.Point(352, 24);
+            this.numExpenseAmount.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             this.numExpenseAmount.Name = "numExpenseAmount";
             this.numExpenseAmount.Size = new System.Drawing.Size(120, 20);
             this.numExpenseAmount.TabIndex = 11;
+            this.numExpenseAmount.ThousandsSeparator = true;
             // 
             // txtExpenseDescription
             // 

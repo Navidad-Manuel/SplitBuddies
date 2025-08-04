@@ -1,4 +1,4 @@
-﻿// Archivo: Models/Group.cs
+﻿
 using Newtonsoft.Json;
 using System.Collections.Generic;
 

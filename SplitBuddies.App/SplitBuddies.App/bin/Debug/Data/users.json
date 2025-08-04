@@ -1,52 +1,314 @@
 [
-  { "Id": 1, "Name": "Ana García", "Email": "ana.garcia@example.com" },
-  { "Id": 2, "Name": "Luis Martínez", "Email": "luis.martinez@example.com" },
-  { "Id": 3, "Name": "Sofía Rodríguez", "Email": "sofia.rodriguez@example.com" },
-  { "Id": 4, "Name": "Carlos Sánchez", "Email": "carlos.sanchez@example.com" },
-  { "Id": 5, "Name": "Lucía Pérez", "Email": "lucia.perez@example.com" },
-  { "Id": 6, "Name": "Javier Gómez", "Email": "javier.gomez@example.com" },
-  { "Id": 7, "Name": "Elena Fernández", "Email": "elena.fernandez@example.com" },
-  { "Id": 8, "Name": "David Moreno", "Email": "david.moreno@example.com" },
-  { "Id": 9, "Name": "Laura Jiménez", "Email": "laura.jimenez@example.com" },
-  { "Id": 10, "Name": "Daniel Díaz", "Email": "daniel.diaz@example.com" },
-  { "Id": 11, "Name": "Paula Ruiz", "Email": "paula.ruiz@example.com" },
-  { "Id": 12, "Name": "Adrián Vázquez", "Email": "adrian.vazquez@example.com" },
-  { "Id": 13, "Name": "Marta Castro", "Email": "marta.castro@example.com" },
-  { "Id": 14, "Name": "Pablo Serrano", "Email": "pablo.serrano@example.com" },
-  { "Id": 15, "Name": "Carmen Ramos", "Email": "carmen.ramos@example.com" },
-  { "Id": 16, "Name": "Sergio Romero", "Email": "sergio.romero@example.com" },
-  { "Id": 17, "Name": "Isabel Suárez", "Email": "isabel.suarez@example.com" },
-  { "Id": 18, "Name": "Jorge Alonso", "Email": "jorge.alonso@example.com" },
-  { "Id": 19, "Name": "Andrea Torres", "Email": "andrea.torres@example.com" },
-  { "Id": 20, "Name": "Marcos Flores", "Email": "marcos.flores@example.com" },
-  { "Id": 21, "Name": "Natalia Gil", "Email": "natalia.gil@example.com" },
-  { "Id": 22, "Name": "Alejandro Vega", "Email": "alejandro.vega@example.com" },
-  { "Id": 23, "Name": "Cristina Soto", "Email": "cristina.soto@example.com" },
-  { "Id": 24, "Name": "Miguel Reyes", "Email": "miguel.reyes@example.com" },
-  { "Id": 25, "Name": "Sandra Navarro", "Email": "sandra.navarro@example.com" },
-  { "Id": 26, "Name": "Iván Molina", "Email": "ivan.molina@example.com" },
-  { "Id": 27, "Name": "Beatriz Pascual", "Email": "beatriz.pascual@example.com" },
-  { "Id": 28, "Name": "Óscar Peña", "Email": "oscar.pena@example.com" },
-  { "Id": 29, "Name": "Verónica Crespo", "Email": "veronica.crespo@example.com" },
-  { "Id": 30, "Name": "Fernando Rivas", "Email": "fernando.rivas@example.com" },
-  { "Id": 31, "Name": "Raquel Gallego", "Email": "raquel.gallego@example.com" },
-  { "Id": 32, "Name": "Rubén Campos", "Email": "ruben.campos@example.com" },
-  { "Id": 33, "Name": "Nerea Vidal", "Email": "nerea.vidal@example.com" },
-  { "Id": 34, "Name": "Guillermo Santos", "Email": "guillermo.santos@example.com" },
-  { "Id": 35, "Name": "Esther Lorenzo", "Email": "esther.lorenzo@example.com" },
-  { "Id": 36, "Name": "Roberto Montero", "Email": "roberto.montero@example.com" },
-  { "Id": 37, "Name": "Clara Ibáñez", "Email": "clara.ibanez@example.com" },
-  { "Id": 38, "Name": "Héctor Soler", "Email": "hector.soler@example.com" },
-  { "Id": 39, "Name": "Eva Herrero", "Email": "eva.herrero@example.com" },
-  { "Id": 40, "Name": "Francisco Núñez", "Email": "francisco.nunez@example.com" },
-  { "Id": 41, "Name": "Silvia Aguilera", "Email": "silvia.aguilera@example.com" },
-  { "Id": 42, "Name": "Ricardo Cabrera", "Email": "ricardo.cabrera@example.com" },
-  { "Id": 43, "Name": "Patricia Mendoza", "Email": "patricia.mendoza@example.com" },
-  { "Id": 44, "Name": "Aitor Ferrer", "Email": "aitor.ferrer@example.com" },
-  { "Id": 45, "Name": "Lorena Castillo", "Email": "lorena.castillo@example.com" },
-  { "Id": 46, "Name": "César Ortega", "Email": "cesar.ortega@example.com" },
-  { "Id": 47, "Name": "Rocío Medina", "Email": "rocio.medina@example.com" },
-  { "Id": 48, "Name": "Mario Santana", "Email": "mario.santana@example.com" },
-  { "Id": 49, "Name": "Alicia Domínguez", "Email": "alicia.dominguez@example.com" },
-  { "Id": 50, "Name": "José Vicente", "Email": "jose.vicente@example.com" }
+  {
+    "id": 1,
+    "name": "Ana García",
+    "username": "ana.garcia",
+    "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+  },
+  {
+    "id": 2,
+    "name": "Luis Martínez",
+    "username": "luis.martinez",
+    "passwordHash": null
+  },
+  {
+    "id": 3,
+    "name": "Sofía Rodríguez",
+    "username": "sofia.rodriguez",
+    "passwordHash": null
+  },
+  {
+    "id": 4,
+    "name": "Carlos Sánchez",
+    "username": "carlos.sanchez",
+    "passwordHash": null
+  },
+  {
+    "id": 5,
+    "name": "Lucía Pérez",
+    "username": "lucia.perez",
+    "passwordHash": null
+  },
+  {
+    "id": 6,
+    "name": "Javier Gómez",
+    "username": "javier.gomez",
+    "passwordHash": null
+  },
+  {
+    "id": 7,
+    "name": "Elena Fernández",
+    "username": "elena.fernandez",
+    "passwordHash": null
+  },
+  {
+    "id": 8,
+    "name": "David Moreno",
+    "username": "david.moreno",
+    "passwordHash": null
+  },
+  {
+    "id": 9,
+    "name": "Laura Jiménez",
+    "username": "laura.jimenez",
+    "passwordHash": null
+  },
+  {
+    "id": 10,
+    "name": "Daniel Díaz",
+    "username": "daniel.diaz",
+    "passwordHash": null
+  },
+  {
+    "id": 11,
+    "name": "Paula Ruiz",
+    "username": "paula.ruiz",
+    "passwordHash": null
+  },
+  {
+    "id": 12,
+    "name": "Adrián Vázquez",
+    "username": "adrian.vazquez",
+    "passwordHash": null
+  },
+  {
+    "id": 13,
+    "name": "Marta Castro",
+    "username": "marta.castro",
+    "passwordHash": null
+  },
+  {
+    "id": 14,
+    "name": "Pablo Serrano",
+    "username": "pablo.serrano",
+    "passwordHash": null
+  },
+  {
+    "id": 15,
+    "name": "Carmen Ramos",
+    "username": "carmen.ramos",
+    "passwordHash": null
+  },
+  {
+    "id": 16,
+    "name": "Sergio Romero",
+    "username": "sergio.romero",
+    "passwordHash": null
+  },
+  {
+    "id": 17,
+    "name": "Isabel Suárez",
+    "username": "isabel.suarez",
+    "passwordHash": null
+  },
+  {
+    "id": 18,
+    "name": "Jorge Alonso",
+    "username": "jorge.alonso",
+    "passwordHash": null
+  },
+  {
+    "id": 19,
+    "name": "Andrea Torres",
+    "username": "andrea.torres",
+    "passwordHash": null
+  },
+  {
+    "id": 20,
+    "name": "Marcos Flores",
+    "username": "marcos.flores",
+    "passwordHash": null
+  },
+  {
+    "id": 21,
+    "name": "Natalia Gil",
+    "username": "natalia.gil",
+    "passwordHash": null
+  },
+  {
+    "id": 22,
+    "name": "Alejandro Vega",
+    "username": "alejandro.vega",
+    "passwordHash": null
+  },
+  {
+    "id": 23,
+    "name": "Cristina Soto",
+    "username": "cristina.soto",
+    "passwordHash": null
+  },
+  {
+    "id": 24,
+    "name": "Miguel Reyes",
+    "username": "miguel.reyes",
+    "passwordHash": null
+  },
+  {
+    "id": 25,
+    "name": "Sandra Navarro",
+    "username": "sandra.navarro",
+    "passwordHash": null
+  },
+  {
+    "id": 26,
+    "name": "Iván Molina",
+    "username": "ivan.molina",
+    "passwordHash": null
+  },
+  {
+    "id": 27,
+    "name": "Beatriz Pascual",
+    "username": "beatriz.pascual",
+    "passwordHash": null
+  },
+  {
+    "id": 28,
+    "name": "Óscar Peña",
+    "username": "oscar.pena@example.com",
+    "passwordHash": null
+  },
+  {
+    "id": 29,
+    "name": "Verónica Crespo",
+    "username": "veronica.crespo",
+    "passwordHash": null
+  },
+  {
+    "id": 30,
+    "name": "Fernando Rivas",
+    "username": "fernando.rivas",
+    "passwordHash": null
+  },
+  {
+    "id": 31,
+    "name": "Raquel Gallego",
+    "username": "raquel.gallego",
+    "passwordHash": null
+  },
+  {
+    "id": 32,
+    "name": "Rubén Campos",
+    "username": "ruben.campos@",
+    "passwordHash": null
+  },
+  {
+    "id": 33,
+    "name": "Nerea Vidal",
+    "username": "nerea.vidal",
+    "passwordHash": null
+  },
+  {
+    "id": 34,
+    "name": "Guillermo Santos",
+    "username": "guillermo.santos",
+    "passwordHash": null
+  },
+  {
+    "id": 35,
+    "name": "Esther Lorenzo",
+    "username": "esther.lorenzo",
+    "passwordHash": null
+  },
+  {
+    "id": 36,
+    "name": "Roberto Montero",
+    "username": "roberto.montero",
+    "passwordHash": null
+  },
+  {
+    "id": 37,
+    "name": "Clara Ibáñez",
+    "username": "clara.ibanez@",
+    "passwordHash": null
+  },
+  {
+    "id": 38,
+    "name": "Héctor Soler",
+    "username": "hector.soler@",
+    "passwordHash": null
+  },
+  {
+    "id": 39,
+    "name": "Eva Herrero",
+    "username": "eva.herrero",
+    "passwordHash": null
+  },
+  {
+    "id": 40,
+    "name": "Francisco Núñez",
+    "username": "francisco.nunez",
+    "passwordHash": null
+  },
+  {
+    "id": 41,
+    "name": "Silvia Aguilera",
+    "username": "silvia.aguilera",
+    "passwordHash": null
+  },
+  {
+    "id": 42,
+    "name": "Ricardo Cabrera",
+    "username": "ricardo.cabrera",
+    "passwordHash": null
+  },
+  {
+    "id": 43,
+    "name": "Patricia Mendoza",
+    "username": "patricia.mendoza",
+    "passwordHash": null
+  },
+  {
+    "id": 44,
+    "name": "Aitor Ferrer",
+    "username": "aitor.ferrer",
+    "passwordHash": null
+  },
+  {
+    "id": 45,
+    "name": "Lorena Castillo",
+    "username": "lorena.castillo",
+    "passwordHash": null
+  },
+  {
+    "id": 46,
+    "name": "César Ortega",
+    "username": "cesar.ortega",
+    "passwordHash": null
+  },
+  {
+    "id": 47,
+    "name": "Rocío Medina",
+    "username": "rocio.medina",
+    "passwordHash": null
+  },
+  {
+    "id": 48,
+    "name": "Mario Santana",
+    "username": "mario.santana",
+    "passwordHash": null
+  },
+  {
+    "id": 49,
+    "name": "Alicia Domínguez",
+    "username": "alicia.dominguez",
+    "passwordHash": null
+  },
+  {
+    "id": 50,
+    "name": "José Vicente",
+    "username": "jose.vicente",
+    "passwordHash": null
+  },
+  {
+    "id": 51,
+    "name": "Administrador (Manuel)",
+    "username": "admin",
+    "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+  },
+  {
+    "id": 52,
+    "name": "Yodan ",
+    "username": "Espinoza",
+    "passwordHash": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414"
+  }
 ]

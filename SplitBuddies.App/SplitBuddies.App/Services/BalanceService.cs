@@ -1,44 +1,80 @@
-﻿// Archivo: Services/BalanceService.cs
-using SplitBuddies.App.Models;
+﻿
+using SplitBuddies.App.Models; 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace SplitBuddies.App.Services
 {
-    /// <summary>
-    /// Servicio estático para realizar todos los cálculos de saldos.
-    /// Cumple con el Principio de Responsabilidad Única.
-    /// </summary>
     public static class BalanceService
     {
-        /// <summary>
-        /// Calcula el balance general de un usuario.
-        /// Un valor positivo significa que le deben dinero.
-        /// Un valor negativo significa que debe dinero.
-        /// </summary>
         public static decimal GetUserBalance(int userId, IEnumerable<Expense> allExpenses)
         {
-            // 1. Sumar todo lo que el usuario ha pagado por otros.
             decimal totalPaid = allExpenses
-                .Where(e => e.PayerId == userId)
+                .Where(e => e.PayerId == userId) 
                 .Sum(e => e.Amount);
-
-            // 2. Sumar todo lo que el usuario debe de los gastos en los que participó.
             decimal totalOwed = allExpenses
-                // Filtramos gastos donde el usuario es un participante.
                 .Where(e => e.ParticipantIds != null && e.ParticipantIds.Contains(userId))
-                // Para cada gasto, calculamos la parte que le corresponde.
                 .Sum(e => {
-                    // MEJORA: Comprobación para evitar división por cero si la lista de participantes está vacía.
                     if (e.ParticipantIds.Any())
                     {
                         return e.Amount / e.ParticipantIds.Count;
                     }
-                    return 0; // Si no hay participantes, no debe nada de este gasto.
+                    return 0;
                 });
-
-            // 3. El balance final es la diferencia.
             return totalPaid - totalOwed;
+        }
+
+
+        public static List<string> CalculateGroupBalances(Group group, List<User> allUsers, List<Expense> allExpenses)
+        {
+            var balances = new Dictionary<int, decimal>();
+            var results = new List<string>();
+            var groupExpenses = allExpenses.Where(e => e.GroupId == group.Id).ToList(); 
+            if (!groupExpenses.Any())
+            {
+                results.Add("No hay gastos registrados en este grupo.");
+                return results;
+            }
+            foreach (var memberId in group.MemberIds)
+            {
+                decimal paidInGroup = groupExpenses.Where(e => e.PayerId == memberId).Sum(e => e.Amount);
+                decimal owedInGroup = groupExpenses.Where(e => e.ParticipantIds.Contains(memberId))
+                                                   .Sum(e => e.Amount / e.ParticipantIds.Count);
+                balances[memberId] = paidInGroup - owedInGroup;
+            }
+            var debtors = balances.Where(b => b.Value < 0).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+            var creditors = balances.Where(b => b.Value > 0).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+
+            foreach (var debtor in debtors.ToList()) 
+            {
+                int debtorId = debtor.Key;
+                decimal amountOwed = -debtor.Value;
+                while (amountOwed > 0.01m && creditors.Any())
+                {
+                    var creditor = creditors.First();
+                    int creditorId = creditor.Key;
+                    decimal amountToReceive = creditor.Value;
+                    decimal payment = Math.Min(amountOwed, amountToReceive);
+
+                    string debtorName = allUsers.FirstOrDefault(u => u.Id == debtorId)?.Name ?? "Usuario Desconocido";
+                    string creditorName = allUsers.FirstOrDefault(u => u.Id == creditorId)?.Name ?? "Usuario Desconocido";
+                    results.Add($"{debtorName} debe a {creditorName}: {payment:C}");
+
+                    amountOwed -= payment;
+                    creditors[creditorId] -= payment;
+                    if (creditors[creditorId] < 0.01m)
+                    {
+                        creditors.Remove(creditorId);
+                    }
+                }
+            }
+
+            if (!results.Any())
+            {
+                results.Add("Todos los saldos en el grupo están a cero.");
+            }
+            return results;
         }
     }
 }

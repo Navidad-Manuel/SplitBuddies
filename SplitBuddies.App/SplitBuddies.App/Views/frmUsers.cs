@@ -17,124 +17,46 @@ namespace SplitBuddies.App.Views
             _dataService = DataService.Instance;
         }
 
-        // --- EVENTOS ---
-
-        // Se ejecuta cuando el formulario se carga por primera vez.
         private void frmUsers_Load(object sender, EventArgs e)
         {
-            RefreshUsersGrid();
         }
 
-        
-       
-
-        // --- FUNCIONES AUXILIARES ---
-
-        // Refresca el contenido del DataGridView con la lista actual de usuarios.
-        // Refresca el contenido del DataGridView con la lista actual de usuarios.
-        private void RefreshUsersGrid()
+        private void btnAddUser_Click(object sender, EventArgs e)
         {
-            try
+            if (string.IsNullOrWhiteSpace(txtUserName.Text) ||
+                string.IsNullOrWhiteSpace(txtLoginUsername.Text) ||
+                string.IsNullOrWhiteSpace(txtPassword.Text))
             {
-                // 1. Desvincula la fuente de datos completamente.
-                dgvUsers.DataSource = null;
-
-                // 2. Vuelve a asignar la fuente de datos.
-                // Usar .ToList() crea una NUEVA copia de la lista, lo que a menudo ayuda
-                // a que el DataGridView detecte el cambio y se actualice correctamente.
-                dgvUsers.DataSource = _dataService.Users.ToList();
-
-                // 3. Oculta la columna de Email si no quieres que se vea (opcional, pero mejora la vista).
-                if (dgvUsers.Columns.Contains("Email"))
-                {
-                    dgvUsers.Columns["Email"].Visible = false;
-                }
-
-                // 4. Ajusta el ancho de las columnas para que se vea bien.
-                if (dgvUsers.Columns.Contains("Id"))
-                {
-                    dgvUsers.Columns["Id"].Width = 40;
-                }
-                dgvUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                MessageBox.Show("Nombre completo, nombre de usuario y contraseña son obligatorios.", "Campos Incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al refrescar la lista de usuarios: {ex.Message}");
-            }
-        }
 
-        private void frmUsers_Load_1(object sender, EventArgs e)
-        {
-
-        }
-        // Se ejecuta al hacer clic en el botón "Agregar Usuario".
-        private void btnAddUser_Click_1(object sender, EventArgs e)
-        {
-            // 1. Validar que los campos no estén vacíos.
-            if (string.IsNullOrWhiteSpace(txtUserName.Text) || string.IsNullOrWhiteSpace(txtUserEmail.Text))
+            if (_dataService.Users.Any(u => u.Username.Equals(txtLoginUsername.Text, StringComparison.OrdinalIgnoreCase)))
             {
-                MessageBox.Show("El nombre y el email son obligatorios.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Ese nombre de usuario ya está en uso. Por favor, elija otro.", "Usuario Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             try
             {
-                // 2. Crear un nuevo objeto User.
                 var newUser = new User
                 {
-                    // Genera un nuevo ID basado en el máximo existente + 1.
                     Id = (_dataService.Users.Any() ? _dataService.Users.Max(u => u.Id) : 0) + 1,
                     Name = txtUserName.Text,
-                    Email = txtUserEmail.Text
+                    Username = txtLoginUsername.Text,
+                    PasswordHash = SecurityService.HashPassword(txtPassword.Text)
                 };
 
-                // 3. Añadir el usuario a la lista en memoria.
                 _dataService.Users.Add(newUser);
-
-                // 4. ¡CRÍTICO! Guardar los cambios en el archivo users.json.
                 _dataService.SaveChanges();
+                MessageBox.Show("¡Registro exitoso! Ahora puede iniciar sesión con sus nuevas credenciales.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                MessageBox.Show("Usuario agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // 5. Limpiar los campos y actualizar la tabla.
-                txtUserName.Clear();
-                txtUserEmail.Clear();
-                RefreshUsersGrid();
+                this.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocurrió un error al guardar el usuario: {ex.Message}", "Error");
+                MessageBox.Show($"Ocurrió un error inesperado durante el registro: {ex.Message}", "Error Crítico", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtUserName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtUserEmail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

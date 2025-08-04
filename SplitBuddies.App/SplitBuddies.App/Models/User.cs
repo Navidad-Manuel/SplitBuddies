@@ -7,10 +7,17 @@ namespace SplitBuddies.App.Models
     {
         [JsonProperty("id")]
         public int Id { get; set; }
+
         [JsonProperty("name")]
         public string Name { get; set; }
-        [JsonProperty("email")]
-        public string Email { get; set; }
+
+        
+        [JsonProperty("username")]
+        public string Username { get; set; }
+
+        [JsonProperty("passwordHash")]
+        public string PasswordHash { get; set; }
+
         public override string ToString() => Name;
     }
 }

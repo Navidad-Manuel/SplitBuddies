@@ -1,102 +1,1656 @@
 [
-  { "Id": 1, "GroupId": 1, "Name": "Alquiler Enero", "Description": "Pago mensual del piso", "Amount": 1200.00, "Date": "2024-01-05T10:00:00", "PayerId": 1, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 2, "GroupId": 1, "Name": "Factura de Luz", "Description": "Consumo de diciembre", "Amount": 85.50, "Date": "2024-01-10T11:00:00", "PayerId": 5, "ParticipantIds": [1, 5, 10, 15], "Link": "http://example.com/factura/luz" },
-  { "Id": 3, "GroupId": 2, "Name": "Vuelos a Roma", "Description": "Vuelos de ida y vuelta", "Amount": 850.00, "Date": "2024-02-15T12:00:00", "PayerId": 2, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 4, "GroupId": 2, "Name": "Hotel en Roma", "Description": "4 noches en Hotel Coliseo", "Amount": 1100.00, "Date": "2024-02-20T13:00:00", "PayerId": 6, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 5, "GroupId": 3, "Name": "Inscripción Liga", "Description": "Temporada primavera", "Amount": 180.00, "Date": "2024-03-01T14:00:00", "PayerId": 3, "ParticipantIds": [3, 7, 13, 19, 25, 30], "Link": "" },
-  { "Id": 6, "GroupId": 4, "Name": "Restaurante", "Description": "Cena en 'La Buena Mesa'", "Amount": 350.00, "Date": "2023-12-24T21:00:00", "PayerId": 4, "ParticipantIds": [4, 8, 14, 20, 26], "Link": "" },
-  { "Id": 7, "GroupId": 5, "Name": "Compra de Libros", "Description": "'Cien Años de Soledad'", "Amount": 45.00, "Date": "2024-03-10T15:00:00", "PayerId": 9, "ParticipantIds": [9, 11, 16], "Link": "" },
-  { "Id": 8, "GroupId": 6, "Name": "Gasolina viaje", "Description": "Llenado de depósito", "Amount": 70.00, "Date": "2024-04-05T09:00:00", "PayerId": 1, "ParticipantIds": [1, 2, 3, 4], "Link": "" },
-  { "Id": 9, "GroupId": 6, "Name": "Casa Rural", "Description": "Alquiler fin de semana", "Amount": 400.00, "Date": "2024-04-05T16:00:00", "PayerId": 2, "ParticipantIds": [1, 2, 3, 4], "Link": "" },
-  { "Id": 10, "GroupId": 7, "Name": "Impresión de apuntes", "Description": "Copistería de la facultad", "Amount": 25.50, "Date": "2024-04-12T10:00:00", "PayerId": 17, "ParticipantIds": [17, 22, 28, 33], "Link": "" },
-  { "Id": 11, "GroupId": 8, "Name": "Cafés de la semana", "Description": "Cafetería de la oficina", "Amount": 30.00, "Date": "2024-04-19T09:30:00", "PayerId": 34, "ParticipantIds": [34, 35, 36, 37, 38], "Link": "" },
-  { "Id": 12, "GroupId": 9, "Name": "Compra en supermercado", "Description": "Comida para el fin de semana", "Amount": 150.00, "Date": "2024-05-03T18:00:00", "PayerId": 39, "ParticipantIds": [39, 40, 41, 42, 43], "Link": "" },
-  { "Id": 13, "GroupId": 10, "Name": "Smartwatch", "Description": "Regalo para Laura", "Amount": 250.00, "Date": "2024-05-10T12:00:00", "PayerId": 9, "ParticipantIds": [8, 9, 10, 11], "Link": "" },
-  { "Id": 14, "GroupId": 11, "Name": "Cuota mensual Gimnasio", "Description": "Pago de Mayo", "Amount": 210.00, "Date": "2024-05-01T08:00:00", "PayerId": 44, "ParticipantIds": [44, 45, 46, 47, 48, 49, 50], "Link": "" },
-  { "Id": 15, "GroupId": 12, "Name": "Entradas Concierto", "Description": "Pista general", "Amount": 220.00, "Date": "2024-05-15T20:00:00", "PayerId": 2, "ParticipantIds": [2, 4, 6, 8], "Link": "" },
-  { "Id": 16, "GroupId": 13, "Name": "Carne para barbacoa", "Description": "Carnicería local", "Amount": 95.00, "Date": "2024-06-01T11:00:00", "PayerId": 1, "ParticipantIds": [1, 3, 5, 7, 9], "Link": "" },
-  { "Id": 17, "GroupId": 13, "Name": "Bebidas y snacks", "Description": "Supermercado", "Amount": 60.00, "Date": "2024-06-01T11:30:00", "PayerId": 3, "ParticipantIds": [1, 3, 5, 7, 9], "Link": "" },
-  { "Id": 18, "GroupId": 14, "Name": "Factura de Internet", "Description": "Mes de Mayo", "Amount": 45.00, "Date": "2024-06-05T10:00:00", "PayerId": 5, "ParticipantIds": [5, 23, 29], "Link": "" },
-  { "Id": 19, "GroupId": 15, "Name": "Alojamiento en Lisboa", "Description": "Apartamento céntrico", "Amount": 750.00, "Date": "2024-06-10T14:00:00", "PayerId": 10, "ParticipantIds": [10, 20, 30, 40, 50], "Link": "" },
-  { "Id": 20, "GroupId": 16, "Name": "Actividad Paintball", "Description": "Despedida", "Amount": 200.00, "Date": "2024-06-15T16:00:00", "PayerId": 6, "ParticipantIds": [6, 12, 24, 36, 48], "Link": "" },
-  { "Id": 21, "GroupId": 1, "Name": "Compra semanal", "Description": "Supermercado", "Amount": 120.45, "Date": "2024-01-15T18:30:00", "PayerId": 10, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 22, "GroupId": 17, "Name": "Entradas de cine", "Description": "Película 'Dune 2'", "Amount": 40.00, "Date": "2024-02-22T19:00:00", "PayerId": 13, "ParticipantIds": [13, 14, 15, 16], "Link": "" },
-  { "Id": 23, "GroupId": 18, "Name": "Ingredientes curso", "Description": "Materiales para cocina italiana", "Amount": 88.00, "Date": "2024-03-12T17:00:00", "PayerId": 1, "ParticipantIds": [1, 11, 21, 31, 41], "Link": "" },
-  { "Id": 24, "GroupId": 19, "Name": "Factura Gas", "Description": "Calefacción de invierno", "Amount": 150.00, "Date": "2024-01-20T11:00:00", "PayerId": 19, "ParticipantIds": [19, 22, 28, 32], "Link": "" },
-  { "Id": 25, "GroupId": 20, "Name": "Abonos Festival", "Description": "Acceso 3 días", "Amount": 600.00, "Date": "2024-04-10T13:00:00", "PayerId": 7, "ParticipantIds": [7, 17, 27, 37, 47], "Link": "" },
-  { "Id": 26, "GroupId": 21, "Name": "Alquiler de pista", "Description": "2 horas de entrenamiento", "Amount": 50.00, "Date": "2024-05-08T20:00:00", "PayerId": 2, "ParticipantIds": [2, 4, 26, 34, 38, 42, 46], "Link": "" },
-  { "Id": 27, "GroupId": 22, "Name": "Sombrillas y hamacas", "Description": "Alquiler en la playa", "Amount": 30.00, "Date": "2024-06-22T12:00:00", "PayerId": 3, "ParticipantIds": [3, 23, 33, 43, 49], "Link": "" },
-  { "Id": 28, "GroupId": 23, "Name": "Tapas y cañas", "Description": "Bar 'El Rincón'", "Amount": 75.00, "Date": "2024-06-27T21:00:00", "PayerId": 5, "ParticipantIds": [5, 15, 25, 35, 45], "Link": "" },
-  { "Id": 29, "GroupId": 24, "Name": "Equipamiento senderismo", "Description": "Botella de agua y mapa", "Amount": 40.00, "Date": "2024-07-01T09:00:00", "PayerId": 8, "ParticipantIds": [8, 16], "Link": "" },
-  { "Id": 30, "GroupId": 25, "Name": "Licencias de software", "Description": "Herramientas de desarrollo", "Amount": 300.00, "Date": "2024-07-05T10:00:00", "PayerId": 4, "ParticipantIds": [4, 18, 22, 36], "Link": "" },
-  { "Id": 31, "GroupId": 26, "Name": "Visados", "Description": "Trámites para el viaje", "Amount": 210.00, "Date": "2024-01-15T11:00:00", "PayerId": 9, "ParticipantIds": [9, 29, 39], "Link": "" },
-  { "Id": 32, "GroupId": 27, "Name": "Cuerdas de guitarra", "Description": "Tienda de música", "Amount": 35.00, "Date": "2024-02-18T18:00:00", "PayerId": 12, "ParticipantIds": [12, 20, 34, 44], "Link": "" },
-  { "Id": 33, "GroupId": 28, "Name": "Material para refugio", "Description": "Comida para animales", "Amount": 100.00, "Date": "2024-03-20T10:00:00", "PayerId": 1, "ParticipantIds": [1, 23, 45, 50], "Link": "" },
-  { "Id": 34, "GroupId": 29, "Name": "Cena Asiática", "Description": "Restaurante 'Wok'", "Amount": 125.00, "Date": "2024-04-25T21:30:00", "PayerId": 11, "ParticipantIds": [11, 22, 33, 44, 49], "Link": "" },
-  { "Id": 35, "GroupId": 30, "Name": "Forfaits esquí", "Description": "Pase de 2 días", "Amount": 440.00, "Date": "2024-02-10T09:00:00", "PayerId": 6, "ParticipantIds": [6, 16, 26, 36, 46], "Link": "" },
-  { "Id": 36, "GroupId": 1, "Name": "Alquiler Febrero", "Description": "Pago mensual del piso", "Amount": 1200.00, "Date": "2024-02-05T10:00:00", "PayerId": 1, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 37, "GroupId": 2, "Name": "Cena en Trastevere", "Description": "Pasta y vino", "Amount": 240.00, "Date": "2024-02-21T20:30:00", "PayerId": 12, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 38, "GroupId": 3, "Name": "Equipaciones", "Description": "Camisetas y pantalones", "Amount": 300.00, "Date": "2024-03-15T17:00:00", "PayerId": 7, "ParticipantIds": [3, 7, 13, 19, 25, 30], "Link": "" },
-  { "Id": 39, "GroupId": 4, "Name": "Bebidas", "Description": "Compra para la cena", "Amount": 80.00, "Date": "2023-12-24T18:00:00", "PayerId": 8, "ParticipantIds": [4, 8, 14, 20, 26], "Link": "" },
-  { "Id": 40, "GroupId": 5, "Name": "Café y Pastas Reunión", "Description": "Cafetería 'El Molino'", "Amount": 28.00, "Date": "2024-04-14T18:00:00", "PayerId": 11, "ParticipantIds": [9, 11, 16, 21, 27], "Link": "" },
-  { "Id": 41, "GroupId": 8, "Name": "Regalo de despedida", "Description": "Para compañero que se va", "Amount": 50.00, "Date": "2024-05-20T13:00:00", "PayerId": 35, "ParticipantIds": [34, 35, 36, 37, 38], "Link": "" },
-  { "Id": 42, "GroupId": 10, "Name": "Tarta de cumpleaños", "Description": "Pastelería 'Dulce Secreto'", "Amount": 35.00, "Date": "2024-05-12T15:00:00", "PayerId": 10, "ParticipantIds": [8, 9, 10, 11], "Link": "" },
-  { "Id": 43, "GroupId": 11, "Name": "Bebidas isotónicas", "Description": "Para después de entrenar", "Amount": 15.00, "Date": "2024-05-18T11:00:00", "PayerId": 45, "ParticipantIds": [44, 45, 46, 47, 48, 49, 50], "Link": "" },
-  { "Id": 44, "GroupId": 12, "Name": "Taxis de vuelta", "Description": "Transporte post-concierto", "Amount": 40.00, "Date": "2024-05-16T02:00:00", "PayerId": 4, "ParticipantIds": [2, 4, 6, 8], "Link": "" },
-  { "Id": 45, "GroupId": 14, "Name": "Compra de productos de limpieza", "Description": "Detergente, etc.", "Amount": 33.70, "Date": "2024-06-12T19:00:00", "PayerId": 23, "ParticipantIds": [5, 23, 29], "Link": "" },
-  { "Id": 46, "GroupId": 15, "Name": "Tour turístico", "Description": "Free tour por Lisboa", "Amount": 50.00, "Date": "2024-06-11T10:00:00", "PayerId": 20, "ParticipantIds": [10, 20, 30, 40, 50], "Link": "" },
-  { "Id": 47, "GroupId": 16, "Name": "Cena despedida", "Description": "Asador 'El Buey'", "Amount": 350.00, "Date": "2024-06-15T21:00:00", "PayerId": 12, "ParticipantIds": [6, 12, 24, 36, 48], "Link": "" },
-  { "Id": 48, "GroupId": 17, "Name": "Palomitas y refrescos", "Description": "Combo grande", "Amount": 25.00, "Date": "2024-02-22T19:05:00", "PayerId": 14, "ParticipantIds": [13, 14, 15, 16], "Link": "" },
-  { "Id": 49, "GroupId": 19, "Name": "Reparación de lavadora", "Description": "Técnico", "Amount": 90.00, "Date": "2024-03-25T12:00:00", "PayerId": 22, "ParticipantIds": [19, 22, 28, 32], "Link": "" },
-  { "Id": 50, "GroupId": 20, "Name": "Comida en el festival", "Description": "Food trucks", "Amount": 150.00, "Date": "2024-04-11T14:00:00", "PayerId": 17, "ParticipantIds": [7, 17, 27, 37, 47], "Link": "" },
-  { "Id": 51, "GroupId": 21, "Name": "Balones nuevos", "Description": "2 balones de baloncesto", "Amount": 60.00, "Date": "2024-05-22T19:30:00", "PayerId": 26, "ParticipantIds": [2, 4, 26, 34, 38, 42, 46], "Link": "" },
-  { "Id": 52, "GroupId": 22, "Name": "Helados", "Description": "Heladería artesanal", "Amount": 25.00, "Date": "2024-06-22T17:00:00", "PayerId": 23, "ParticipantIds": [3, 23, 33, 43, 49], "Link": "" },
-  { "Id": 53, "GroupId": 24, "Name": "Transporte a la ruta", "Description": "Billetes de autobús", "Amount": 48.00, "Date": "2024-07-01T08:00:00", "PayerId": 16, "ParticipantIds": [8, 16, 24, 32, 40, 48], "Link": "" },
-  { "Id": 54, "GroupId": 26, "Name": "Noche de hotel escala", "Description": "Hotel cerca del aeropuerto", "Amount": 120.00, "Date": "2024-02-28T22:00:00", "PayerId": 29, "ParticipantIds": [9, 29, 39], "Link": "" },
-  { "Id": 55, "GroupId": 27, "Name": "Alquiler sala de ensayo", "Description": "4 horas", "Amount": 80.00, "Date": "2024-03-04T19:00:00", "PayerId": 20, "ParticipantIds": [12, 20, 34, 44], "Link": "" },
-  { "Id": 56, "GroupId": 30, "Name": "Alquiler equipo esquí", "Description": "Esquís y botas para 5", "Amount": 250.00, "Date": "2024-02-10T09:30:00", "PayerId": 16, "ParticipantIds": [6, 16, 26, 36, 46], "Link": "" },
-  { "Id": 57, "GroupId": 1, "Name": "Factura de Agua", "Description": "Consumo de enero", "Amount": 55.00, "Date": "2024-02-11T11:00:00", "PayerId": 15, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 58, "GroupId": 2, "Name": "Entradas al Vaticano", "Description": "Museos y Capilla Sixtina", "Amount": 120.00, "Date": "2024-02-22T10:00:00", "PayerId": 18, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 59, "GroupId": 6, "Name": "Actividades de aventura", "Description": "Rafting en el río", "Amount": 200.00, "Date": "2024-04-06T11:00:00", "PayerId": 3, "ParticipantIds": [1, 2, 3, 4], "Link": "" },
-  { "Id": 60, "GroupId": 9, "Name": "Leña para la chimenea", "Description": "Para la noche", "Amount": 20.00, "Date": "2024-05-03T20:00:00", "PayerId": 40, "ParticipantIds": [39, 40, 41, 42, 43], "Link": "" },
-  { "Id": 61, "GroupId": 1, "Name": "Alquiler Marzo", "Description": "Pago mensual del piso", "Amount": 1200.00, "Date": "2024-03-05T10:00:00", "PayerId": 1, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 62, "GroupId": 1, "Name": "Pizza Night", "Description": "Pedido a domicilio", "Amount": 48.00, "Date": "2024-03-22T21:00:00", "PayerId": 5, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 63, "GroupId": 2, "Name": "Transporte público", "Description": "Bono de metro y bus", "Amount": 100.00, "Date": "2024-02-21T09:00:00", "PayerId": 24, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 64, "GroupId": 3, "Name": "Botiquín", "Description": "Sprays y vendas", "Amount": 30.00, "Date": "2024-04-03T18:00:00", "PayerId": 13, "ParticipantIds": [3, 7, 13, 19, 25, 30], "Link": "" },
-  { "Id": 65, "GroupId": 5, "Name": "Suscripción a revista", "Description": "Literary Review", "Amount": 60.00, "Date": "2024-05-01T12:00:00", "PayerId": 16, "ParticipantIds": [9, 11, 16, 21, 27], "Link": "" },
-  { "Id": 66, "GroupId": 7, "Name": "Fotocopias proyecto final", "Description": "Encuadernación incluida", "Amount": 55.00, "Date": "2024-05-25T11:00:00", "PayerId": 22, "ParticipantIds": [17, 22, 28, 33], "Link": "" },
-  { "Id": 67, "GroupId": 8, "Name": "Desayuno de equipo", "Description": "Churros y chocolate", "Amount": 40.00, "Date": "2024-06-14T09:00:00", "PayerId": 36, "ParticipantIds": [34, 35, 36, 37, 38], "Link": "" },
-  { "Id": 68, "GroupId": 13, "Name": "Carbón y utensilios", "Description": "Para la barbacoa", "Amount": 25.00, "Date": "2024-06-01T10:30:00", "PayerId": 5, "ParticipantIds": [1, 3, 5, 7, 9], "Link": "" },
-  { "Id": 69, "GroupId": 14, "Name": "Reparación persiana", "Description": "Arreglo del salón", "Amount": 60.00, "Date": "2024-07-02T16:00:00", "PayerId": 29, "ParticipantIds": [5, 23, 29], "Link": "" },
-  { "Id": 70, "GroupId": 15, "Name": "Pasteles de Belém", "Description": "Dulce típico", "Amount": 18.00, "Date": "2024-06-12T17:00:00", "PayerId": 30, "ParticipantIds": [10, 20, 30, 40, 50], "Link": "" },
-  { "Id": 71, "GroupId": 18, "Name": "Delantales y gorros", "Description": "Uniforme del curso", "Amount": 50.00, "Date": "2024-03-12T16:30:00", "PayerId": 21, "ParticipantIds": [1, 11, 21, 31, 41], "Link": "" },
-  { "Id": 72, "GroupId": 19, "Name": "Suscripción Netflix", "Description": "Plan familiar", "Amount": 17.99, "Date": "2024-04-01T00:00:00", "PayerId": 28, "ParticipantIds": [19, 22, 28, 32], "Link": "" },
-  { "Id": 73, "GroupId": 23, "Name": "Entradas discoteca", "Description": "Salida del jueves", "Amount": 60.00, "Date": "2024-07-04T23:30:00", "PayerId": 15, "ParticipantIds": [5, 15, 25, 35, 45], "Link": "" },
-  { "Id": 74, "GroupId": 25, "Name": "Dominio y Hosting", "Description": "Renovación anual", "Amount": 120.00, "Date": "2024-07-10T11:00:00", "PayerId": 18, "ParticipantIds": [4, 18, 22, 36], "Link": "" },
-  { "Id": 75, "GroupId": 28, "Name": "Campaña de donación", "Description": "Flyers y carteles", "Amount": 70.00, "Date": "2024-04-10T12:00:00", "PayerId": 23, "ParticipantIds": [1, 23, 45, 50], "Link": "" },
-  { "Id": 76, "GroupId": 29, "Name": "Cena Mexicana", "Description": "Restaurante 'El Grito'", "Amount": 140.00, "Date": "2024-05-30T21:00:00", "PayerId": 22, "ParticipantIds": [11, 22, 33, 44, 49], "Link": "" },
-  { "Id": 77, "GroupId": 30, "Name": "Clases de snowboard", "Description": "2 horas para principiantes", "Amount": 150.00, "Date": "2024-02-10T10:00:00", "PayerId": 26, "ParticipantIds": [26, 36], "Link": "" },
-  { "Id": 78, "GroupId": 1, "Name": "Alquiler Abril", "Description": "Pago mensual del piso", "Amount": 1200.00, "Date": "2024-04-05T10:00:00", "PayerId": 1, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 79, "GroupId": 2, "Name": "Souvenirs", "Description": "Recuerdos para la familia", "Amount": 80.00, "Date": "2024-02-23T18:00:00", "PayerId": 6, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 80, "GroupId": 3, "Name": "Bebidas post-partido", "Description": "Bar deportivo", "Amount": 45.00, "Date": "2024-04-20T22:00:00", "PayerId": 19, "ParticipantIds": [3, 7, 13, 19, 25, 30], "Link": "" },
-  { "Id": 81, "GroupId": 4, "Name": "Amigo invisible", "Description": "Regalos", "Amount": 100.00, "Date": "2023-12-20T19:00:00", "PayerId": 14, "ParticipantIds": [4, 8, 14, 20, 26], "Link": "" },
-  { "Id": 82, "GroupId": 6, "Name": "Cena en el pueblo", "Description": "Mesón 'La Casona'", "Amount": 160.00, "Date": "2024-04-06T21:00:00", "PayerId": 4, "ParticipantIds": [1, 2, 3, 4], "Link": "" },
-  { "Id": 83, "GroupId": 11, "Name": "Proteínas y suplementos", "Description": "Tienda de nutrición", "Amount": 70.00, "Date": "2024-06-03T12:00:00", "PayerId": 46, "ParticipantIds": [44, 46, 48, 50], "Link": "" },
-  { "Id": 84, "GroupId": 12, "Name": "Merchandising de la banda", "Description": "Camisetas", "Amount": 90.00, "Date": "2024-05-15T23:00:00", "PayerId": 6, "ParticipantIds": [2, 6, 8], "Link": "" },
-  { "Id": 85, "GroupId": 13, "Name": "Postres", "Description": "Tartas caseras", "Amount": 30.00, "Date": "2024-06-01T13:00:00", "PayerId": 7, "ParticipantIds": [1, 3, 5, 7, 9], "Link": "" },
-  { "Id": 86, "GroupId": 18, "Name": "Vino para maridar", "Description": "Tienda especializada", "Amount": 40.00, "Date": "2024-03-12T16:45:00", "PayerId": 31, "ParticipantIds": [1, 11, 21, 31, 41], "Link": "" },
-  { "Id": 87, "GroupId": 19, "Name": "Compra conjunta de limpieza", "Description": "Productos para el mes", "Amount": 45.00, "Date": "2024-05-02T18:00:00", "PayerId": 32, "ParticipantIds": [19, 22, 28, 32], "Link": "" },
-  { "Id": 88, "GroupId": 20, "Name": "Parking", "Description": "Aparcamiento para los 3 días", "Amount": 45.00, "Date": "2024-04-10T14:00:00", "PayerId": 27, "ParticipantIds": [7, 17, 27, 37, 47], "Link": "" },
-  { "Id": 89, "GroupId": 22, "Name": "Paella", "Description": "Chiringuito 'La Dorada'", "Amount": 100.00, "Date": "2024-06-22T14:00:00", "PayerId": 33, "ParticipantIds": [3, 23, 33, 43, 49], "Link": "" },
-  { "Id": 90, "GroupId": 24, "Name": "Almuerzo en refugio", "Description": "Bocadillos y bebida", "Amount": 80.00, "Date": "2024-07-01T13:00:00", "PayerId": 24, "ParticipantIds": [8, 16, 24, 32, 40, 48], "Link": "" },
-  { "Id": 91, "GroupId": 26, "Name": "Vuelos internos", "Description": "Vuelo Bangkok - Chiang Mai", "Amount": 150.00, "Date": "2024-03-10T15:00:00", "PayerId": 39, "ParticipantIds": [9, 29, 39], "Link": "" },
-  { "Id": 92, "GroupId": 27, "Name": "Reparación amplificador", "Description": "Técnico de sonido", "Amount": 100.00, "Date": "2024-04-15T17:00:00", "PayerId": 34, "ParticipantIds": [12, 20, 34, 44], "Link": "" },
-  { "Id": 93, "GroupId": 1, "Name": "Alquiler Mayo", "Description": "Pago mensual del piso", "Amount": 1200.00, "Date": "2024-05-05T10:00:00", "PayerId": 1, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 94, "GroupId": 1, "Name": "Bombillas nuevas", "Description": "Ferretería", "Amount": 15.00, "Date": "2024-05-10T19:00:00", "PayerId": 10, "ParticipantIds": [1, 5, 10, 15], "Link": "" },
-  { "Id": 95, "GroupId": 2, "Name": "Gelatos", "Description": "Heladería 'Giolitti'", "Amount": 30.00, "Date": "2024-02-22T16:00:00", "PayerId": 2, "ParticipantIds": [2, 6, 12, 18, 24], "Link": "" },
-  { "Id": 96, "GroupId": 30, "Name": "Chocolate caliente", "Description": "Cafetería en pistas", "Amount": 35.00, "Date": "2024-02-11T16:00:00", "PayerId": 36, "ParticipantIds": [6, 16, 26, 36, 46], "Link": "" },
-  { "Id": 97, "GroupId": 8, "Name": "Pizza para todos", "Description": "Almuerzo en la oficina", "Amount": 60.00, "Date": "2024-07-12T13:30:00", "PayerId": 38, "ParticipantIds": [34, 35, 36, 37, 38], "Link": "" },
-  { "Id": 98, "GroupId": 11, "Name": "Inscripción carrera popular", "Description": "10K de la ciudad", "Amount": 105.00, "Date": "2024-07-01T10:00:00", "PayerId": 49, "ParticipantIds": [45, 47, 49], "Link": "" },
-  { "Id": 99, "GroupId": 14, "Name": "Comunidad de vecinos", "Description": "Pago trimestral", "Amount": 150.00, "Date": "2024-07-01T09:00:00", "PayerId": 5, "ParticipantIds": [5, 23, 29], "Link": "" },
-  { "Id": 100, "GroupId": 29, "Name": "Cena de despedida", "Description": "Restaurante 'La Cava'", "Amount": 200.00, "Date": "2024-06-28T22:00:00", "PayerId": 49, "ParticipantIds": [11, 22, 33, 44, 49], "Link": "" }
+  {
+    "id": 1,
+    "groupId": 1,
+    "name": "Alquiler Enero",
+    "description": "Pago mensual del piso",
+    "amount": 1200.00,
+    "date": "2024-01-05T10:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 2,
+    "groupId": 1,
+    "name": "Factura de Luz",
+    "description": "Consumo de diciembre",
+    "amount": 85.50,
+    "date": "2024-01-10T11:00:00",
+    "payerId": 5,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": "http://example.com/factura/luz"
+  },
+  {
+    "id": 3,
+    "groupId": 2,
+    "name": "Vuelos a Roma",
+    "description": "Vuelos de ida y vuelta",
+    "amount": 850.00,
+    "date": "2024-02-15T12:00:00",
+    "payerId": 2,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 4,
+    "groupId": 2,
+    "name": "Hotel en Roma",
+    "description": "4 noches en Hotel Coliseo",
+    "amount": 1100.00,
+    "date": "2024-02-20T13:00:00",
+    "payerId": 6,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 5,
+    "groupId": 3,
+    "name": "Inscripción Liga",
+    "description": "Temporada primavera",
+    "amount": 180.00,
+    "date": "2024-03-01T14:00:00",
+    "payerId": 3,
+    "participantIds": [
+      3,
+      7,
+      13,
+      19,
+      25,
+      30
+    ],
+    "link": ""
+  },
+  {
+    "id": 6,
+    "groupId": 4,
+    "name": "Restaurante",
+    "description": "Cena en 'La Buena Mesa'",
+    "amount": 350.00,
+    "date": "2023-12-24T21:00:00",
+    "payerId": 4,
+    "participantIds": [
+      4,
+      8,
+      14,
+      20,
+      26
+    ],
+    "link": ""
+  },
+  {
+    "id": 7,
+    "groupId": 5,
+    "name": "Compra de Libros",
+    "description": "'Cien Años de Soledad'",
+    "amount": 45.00,
+    "date": "2024-03-10T15:00:00",
+    "payerId": 9,
+    "participantIds": [
+      9,
+      11,
+      16
+    ],
+    "link": ""
+  },
+  {
+    "id": 8,
+    "groupId": 6,
+    "name": "Gasolina viaje",
+    "description": "Llenado de depósito",
+    "amount": 70.00,
+    "date": "2024-04-05T09:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "link": ""
+  },
+  {
+    "id": 9,
+    "groupId": 6,
+    "name": "Casa Rural",
+    "description": "Alquiler fin de semana",
+    "amount": 400.00,
+    "date": "2024-04-05T16:00:00",
+    "payerId": 2,
+    "participantIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "link": ""
+  },
+  {
+    "id": 10,
+    "groupId": 7,
+    "name": "Impresión de apuntes",
+    "description": "Copistería de la facultad",
+    "amount": 25.50,
+    "date": "2024-04-12T10:00:00",
+    "payerId": 17,
+    "participantIds": [
+      17,
+      22,
+      28,
+      33
+    ],
+    "link": ""
+  },
+  {
+    "id": 11,
+    "groupId": 8,
+    "name": "Cafés de la semana",
+    "description": "Cafetería de la oficina",
+    "amount": 30.00,
+    "date": "2024-04-19T09:30:00",
+    "payerId": 34,
+    "participantIds": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "link": ""
+  },
+  {
+    "id": 12,
+    "groupId": 9,
+    "name": "Compra en supermercado",
+    "description": "Comida para el fin de semana",
+    "amount": 150.00,
+    "date": "2024-05-03T18:00:00",
+    "payerId": 39,
+    "participantIds": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "link": ""
+  },
+  {
+    "id": 13,
+    "groupId": 10,
+    "name": "Smartwatch",
+    "description": "Regalo para Laura",
+    "amount": 250.00,
+    "date": "2024-05-10T12:00:00",
+    "payerId": 9,
+    "participantIds": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "link": ""
+  },
+  {
+    "id": 14,
+    "groupId": 11,
+    "name": "Cuota mensual Gimnasio",
+    "description": "Pago de Mayo",
+    "amount": 210.00,
+    "date": "2024-05-01T08:00:00",
+    "payerId": 44,
+    "participantIds": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 15,
+    "groupId": 12,
+    "name": "Entradas Concierto",
+    "description": "Pista general",
+    "amount": 220.00,
+    "date": "2024-05-15T20:00:00",
+    "payerId": 2,
+    "participantIds": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "link": ""
+  },
+  {
+    "id": 16,
+    "groupId": 13,
+    "name": "Carne para barbacoa",
+    "description": "Carnicería local",
+    "amount": 95.00,
+    "date": "2024-06-01T11:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "link": ""
+  },
+  {
+    "id": 17,
+    "groupId": 13,
+    "name": "Bebidas y snacks",
+    "description": "Supermercado",
+    "amount": 60.00,
+    "date": "2024-06-01T11:30:00",
+    "payerId": 3,
+    "participantIds": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "link": ""
+  },
+  {
+    "id": 18,
+    "groupId": 14,
+    "name": "Factura de Internet",
+    "description": "Mes de Mayo",
+    "amount": 45.00,
+    "date": "2024-06-05T10:00:00",
+    "payerId": 5,
+    "participantIds": [
+      5,
+      23,
+      29
+    ],
+    "link": ""
+  },
+  {
+    "id": 19,
+    "groupId": 15,
+    "name": "Alojamiento en Lisboa",
+    "description": "Apartamento céntrico",
+    "amount": 750.00,
+    "date": "2024-06-10T14:00:00",
+    "payerId": 10,
+    "participantIds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 20,
+    "groupId": 16,
+    "name": "Actividad Paintball",
+    "description": "Despedida",
+    "amount": 200.00,
+    "date": "2024-06-15T16:00:00",
+    "payerId": 6,
+    "participantIds": [
+      6,
+      12,
+      24,
+      36,
+      48
+    ],
+    "link": ""
+  },
+  {
+    "id": 21,
+    "groupId": 1,
+    "name": "Compra semanal",
+    "description": "Supermercado",
+    "amount": 120.45,
+    "date": "2024-01-15T18:30:00",
+    "payerId": 10,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 22,
+    "groupId": 17,
+    "name": "Entradas de cine",
+    "description": "Película 'Dune 2'",
+    "amount": 40.00,
+    "date": "2024-02-22T19:00:00",
+    "payerId": 13,
+    "participantIds": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "link": ""
+  },
+  {
+    "id": 23,
+    "groupId": 18,
+    "name": "Ingredientes curso",
+    "description": "Materiales para cocina italiana",
+    "amount": 88.00,
+    "date": "2024-03-12T17:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      11,
+      21,
+      31,
+      41
+    ],
+    "link": ""
+  },
+  {
+    "id": 24,
+    "groupId": 19,
+    "name": "Factura Gas",
+    "description": "Calefacción de invierno",
+    "amount": 150.00,
+    "date": "2024-01-20T11:00:00",
+    "payerId": 19,
+    "participantIds": [
+      19,
+      22,
+      28,
+      32
+    ],
+    "link": ""
+  },
+  {
+    "id": 25,
+    "groupId": 20,
+    "name": "Abonos Festival",
+    "description": "Acceso 3 días",
+    "amount": 600.00,
+    "date": "2024-04-10T13:00:00",
+    "payerId": 7,
+    "participantIds": [
+      7,
+      17,
+      27,
+      37,
+      47
+    ],
+    "link": ""
+  },
+  {
+    "id": 26,
+    "groupId": 21,
+    "name": "Alquiler de pista",
+    "description": "2 horas de entrenamiento",
+    "amount": 50.00,
+    "date": "2024-05-08T20:00:00",
+    "payerId": 2,
+    "participantIds": [
+      2,
+      4,
+      26,
+      34,
+      38,
+      42,
+      46
+    ],
+    "link": ""
+  },
+  {
+    "id": 27,
+    "groupId": 22,
+    "name": "Sombrillas y hamacas",
+    "description": "Alquiler en la playa",
+    "amount": 30.00,
+    "date": "2024-06-22T12:00:00",
+    "payerId": 3,
+    "participantIds": [
+      3,
+      23,
+      33,
+      43,
+      49
+    ],
+    "link": ""
+  },
+  {
+    "id": 28,
+    "groupId": 23,
+    "name": "Tapas y cañas",
+    "description": "Bar 'El Rincón'",
+    "amount": 75.00,
+    "date": "2024-06-27T21:00:00",
+    "payerId": 5,
+    "participantIds": [
+      5,
+      15,
+      25,
+      35,
+      45
+    ],
+    "link": ""
+  },
+  {
+    "id": 29,
+    "groupId": 24,
+    "name": "Equipamiento senderismo",
+    "description": "Botella de agua y mapa",
+    "amount": 40.00,
+    "date": "2024-07-01T09:00:00",
+    "payerId": 8,
+    "participantIds": [
+      8,
+      16
+    ],
+    "link": ""
+  },
+  {
+    "id": 30,
+    "groupId": 25,
+    "name": "Licencias de software",
+    "description": "Herramientas de desarrollo",
+    "amount": 300.00,
+    "date": "2024-07-05T10:00:00",
+    "payerId": 4,
+    "participantIds": [
+      4,
+      18,
+      22,
+      36
+    ],
+    "link": ""
+  },
+  {
+    "id": 31,
+    "groupId": 26,
+    "name": "Visados",
+    "description": "Trámites para el viaje",
+    "amount": 210.00,
+    "date": "2024-01-15T11:00:00",
+    "payerId": 9,
+    "participantIds": [
+      9,
+      29,
+      39
+    ],
+    "link": ""
+  },
+  {
+    "id": 32,
+    "groupId": 27,
+    "name": "Cuerdas de guitarra",
+    "description": "Tienda de música",
+    "amount": 35.00,
+    "date": "2024-02-18T18:00:00",
+    "payerId": 12,
+    "participantIds": [
+      12,
+      20,
+      34,
+      44
+    ],
+    "link": ""
+  },
+  {
+    "id": 33,
+    "groupId": 28,
+    "name": "Material para refugio",
+    "description": "Comida para animales",
+    "amount": 100.00,
+    "date": "2024-03-20T10:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      23,
+      45,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 34,
+    "groupId": 29,
+    "name": "Cena Asiática",
+    "description": "Restaurante 'Wok'",
+    "amount": 125.00,
+    "date": "2024-04-25T21:30:00",
+    "payerId": 11,
+    "participantIds": [
+      11,
+      22,
+      33,
+      44,
+      49
+    ],
+    "link": ""
+  },
+  {
+    "id": 35,
+    "groupId": 30,
+    "name": "Forfaits esquí",
+    "description": "Pase de 2 días",
+    "amount": 440.00,
+    "date": "2024-02-10T09:00:00",
+    "payerId": 6,
+    "participantIds": [
+      6,
+      16,
+      26,
+      36,
+      46
+    ],
+    "link": ""
+  },
+  {
+    "id": 36,
+    "groupId": 1,
+    "name": "Alquiler Febrero",
+    "description": "Pago mensual del piso",
+    "amount": 1200.00,
+    "date": "2024-02-05T10:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 37,
+    "groupId": 2,
+    "name": "Cena en Trastevere",
+    "description": "Pasta y vino",
+    "amount": 240.00,
+    "date": "2024-02-21T20:30:00",
+    "payerId": 12,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 38,
+    "groupId": 3,
+    "name": "Equipaciones",
+    "description": "Camisetas y pantalones",
+    "amount": 300.00,
+    "date": "2024-03-15T17:00:00",
+    "payerId": 7,
+    "participantIds": [
+      3,
+      7,
+      13,
+      19,
+      25,
+      30
+    ],
+    "link": ""
+  },
+  {
+    "id": 39,
+    "groupId": 4,
+    "name": "Bebidas",
+    "description": "Compra para la cena",
+    "amount": 80.00,
+    "date": "2023-12-24T18:00:00",
+    "payerId": 8,
+    "participantIds": [
+      4,
+      8,
+      14,
+      20,
+      26
+    ],
+    "link": ""
+  },
+  {
+    "id": 40,
+    "groupId": 5,
+    "name": "Café y Pastas Reunión",
+    "description": "Cafetería 'El Molino'",
+    "amount": 28.00,
+    "date": "2024-04-14T18:00:00",
+    "payerId": 11,
+    "participantIds": [
+      9,
+      11,
+      16,
+      21,
+      27
+    ],
+    "link": ""
+  },
+  {
+    "id": 41,
+    "groupId": 8,
+    "name": "Regalo de despedida",
+    "description": "Para compañero que se va",
+    "amount": 50.00,
+    "date": "2024-05-20T13:00:00",
+    "payerId": 35,
+    "participantIds": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "link": ""
+  },
+  {
+    "id": 42,
+    "groupId": 10,
+    "name": "Tarta de cumpleaños",
+    "description": "Pastelería 'Dulce Secreto'",
+    "amount": 35.00,
+    "date": "2024-05-12T15:00:00",
+    "payerId": 10,
+    "participantIds": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "link": ""
+  },
+  {
+    "id": 43,
+    "groupId": 11,
+    "name": "Bebidas isotónicas",
+    "description": "Para después de entrenar",
+    "amount": 15.00,
+    "date": "2024-05-18T11:00:00",
+    "payerId": 45,
+    "participantIds": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 44,
+    "groupId": 12,
+    "name": "Taxis de vuelta",
+    "description": "Transporte post-concierto",
+    "amount": 40.00,
+    "date": "2024-05-16T02:00:00",
+    "payerId": 4,
+    "participantIds": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "link": ""
+  },
+  {
+    "id": 45,
+    "groupId": 14,
+    "name": "Compra de productos de limpieza",
+    "description": "Detergente, etc.",
+    "amount": 33.70,
+    "date": "2024-06-12T19:00:00",
+    "payerId": 23,
+    "participantIds": [
+      5,
+      23,
+      29
+    ],
+    "link": ""
+  },
+  {
+    "id": 46,
+    "groupId": 15,
+    "name": "Tour turístico",
+    "description": "Free tour por Lisboa",
+    "amount": 50.00,
+    "date": "2024-06-11T10:00:00",
+    "payerId": 20,
+    "participantIds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 47,
+    "groupId": 16,
+    "name": "Cena despedida",
+    "description": "Asador 'El Buey'",
+    "amount": 350.00,
+    "date": "2024-06-15T21:00:00",
+    "payerId": 12,
+    "participantIds": [
+      6,
+      12,
+      24,
+      36,
+      48
+    ],
+    "link": ""
+  },
+  {
+    "id": 48,
+    "groupId": 17,
+    "name": "Palomitas y refrescos",
+    "description": "Combo grande",
+    "amount": 25.00,
+    "date": "2024-02-22T19:05:00",
+    "payerId": 14,
+    "participantIds": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "link": ""
+  },
+  {
+    "id": 49,
+    "groupId": 19,
+    "name": "Reparación de lavadora",
+    "description": "Técnico",
+    "amount": 90.00,
+    "date": "2024-03-25T12:00:00",
+    "payerId": 22,
+    "participantIds": [
+      19,
+      22,
+      28,
+      32
+    ],
+    "link": ""
+  },
+  {
+    "id": 50,
+    "groupId": 20,
+    "name": "Comida en el festival",
+    "description": "Food trucks",
+    "amount": 150.00,
+    "date": "2024-04-11T14:00:00",
+    "payerId": 17,
+    "participantIds": [
+      7,
+      17,
+      27,
+      37,
+      47
+    ],
+    "link": ""
+  },
+  {
+    "id": 51,
+    "groupId": 21,
+    "name": "Balones nuevos",
+    "description": "2 balones de baloncesto",
+    "amount": 60.00,
+    "date": "2024-05-22T19:30:00",
+    "payerId": 26,
+    "participantIds": [
+      2,
+      4,
+      26,
+      34,
+      38,
+      42,
+      46
+    ],
+    "link": ""
+  },
+  {
+    "id": 52,
+    "groupId": 22,
+    "name": "Helados",
+    "description": "Heladería artesanal",
+    "amount": 25.00,
+    "date": "2024-06-22T17:00:00",
+    "payerId": 23,
+    "participantIds": [
+      3,
+      23,
+      33,
+      43,
+      49
+    ],
+    "link": ""
+  },
+  {
+    "id": 53,
+    "groupId": 24,
+    "name": "Transporte a la ruta",
+    "description": "Billetes de autobús",
+    "amount": 48.00,
+    "date": "2024-07-01T08:00:00",
+    "payerId": 16,
+    "participantIds": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48
+    ],
+    "link": ""
+  },
+  {
+    "id": 54,
+    "groupId": 26,
+    "name": "Noche de hotel escala",
+    "description": "Hotel cerca del aeropuerto",
+    "amount": 120.00,
+    "date": "2024-02-28T22:00:00",
+    "payerId": 29,
+    "participantIds": [
+      9,
+      29,
+      39
+    ],
+    "link": ""
+  },
+  {
+    "id": 55,
+    "groupId": 27,
+    "name": "Alquiler sala de ensayo",
+    "description": "4 horas",
+    "amount": 80.00,
+    "date": "2024-03-04T19:00:00",
+    "payerId": 20,
+    "participantIds": [
+      12,
+      20,
+      34,
+      44
+    ],
+    "link": ""
+  },
+  {
+    "id": 56,
+    "groupId": 30,
+    "name": "Alquiler equipo esquí",
+    "description": "Esquís y botas para 5",
+    "amount": 250.00,
+    "date": "2024-02-10T09:30:00",
+    "payerId": 16,
+    "participantIds": [
+      6,
+      16,
+      26,
+      36,
+      46
+    ],
+    "link": ""
+  },
+  {
+    "id": 57,
+    "groupId": 1,
+    "name": "Factura de Agua",
+    "description": "Consumo de enero",
+    "amount": 55.00,
+    "date": "2024-02-11T11:00:00",
+    "payerId": 15,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 58,
+    "groupId": 2,
+    "name": "Entradas al Vaticano",
+    "description": "Museos y Capilla Sixtina",
+    "amount": 120.00,
+    "date": "2024-02-22T10:00:00",
+    "payerId": 18,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 59,
+    "groupId": 6,
+    "name": "Actividades de aventura",
+    "description": "Rafting en el río",
+    "amount": 200.00,
+    "date": "2024-04-06T11:00:00",
+    "payerId": 3,
+    "participantIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "link": ""
+  },
+  {
+    "id": 60,
+    "groupId": 9,
+    "name": "Leña para la chimenea",
+    "description": "Para la noche",
+    "amount": 20.00,
+    "date": "2024-05-03T20:00:00",
+    "payerId": 40,
+    "participantIds": [
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "link": ""
+  },
+  {
+    "id": 61,
+    "groupId": 1,
+    "name": "Alquiler Marzo",
+    "description": "Pago mensual del piso",
+    "amount": 1200.00,
+    "date": "2024-03-05T10:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 62,
+    "groupId": 1,
+    "name": "Pizza Night",
+    "description": "Pedido a domicilio",
+    "amount": 48.00,
+    "date": "2024-03-22T21:00:00",
+    "payerId": 5,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 63,
+    "groupId": 2,
+    "name": "Transporte público",
+    "description": "Bono de metro y bus",
+    "amount": 100.00,
+    "date": "2024-02-21T09:00:00",
+    "payerId": 24,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 64,
+    "groupId": 3,
+    "name": "Botiquín",
+    "description": "Sprays y vendas",
+    "amount": 30.00,
+    "date": "2024-04-03T18:00:00",
+    "payerId": 13,
+    "participantIds": [
+      3,
+      7,
+      13,
+      19,
+      25,
+      30
+    ],
+    "link": ""
+  },
+  {
+    "id": 65,
+    "groupId": 5,
+    "name": "Suscripción a revista",
+    "description": "Literary Review",
+    "amount": 60.00,
+    "date": "2024-05-01T12:00:00",
+    "payerId": 16,
+    "participantIds": [
+      9,
+      11,
+      16,
+      21,
+      27
+    ],
+    "link": ""
+  },
+  {
+    "id": 66,
+    "groupId": 7,
+    "name": "Fotocopias proyecto final",
+    "description": "Encuadernación incluida",
+    "amount": 55.00,
+    "date": "2024-05-25T11:00:00",
+    "payerId": 22,
+    "participantIds": [
+      17,
+      22,
+      28,
+      33
+    ],
+    "link": ""
+  },
+  {
+    "id": 67,
+    "groupId": 8,
+    "name": "Desayuno de equipo",
+    "description": "Churros y chocolate",
+    "amount": 40.00,
+    "date": "2024-06-14T09:00:00",
+    "payerId": 36,
+    "participantIds": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "link": ""
+  },
+  {
+    "id": 68,
+    "groupId": 13,
+    "name": "Carbón y utensilios",
+    "description": "Para la barbacoa",
+    "amount": 25.00,
+    "date": "2024-06-01T10:30:00",
+    "payerId": 5,
+    "participantIds": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "link": ""
+  },
+  {
+    "id": 69,
+    "groupId": 14,
+    "name": "Reparación persiana",
+    "description": "Arreglo del salón",
+    "amount": 60.00,
+    "date": "2024-07-02T16:00:00",
+    "payerId": 29,
+    "participantIds": [
+      5,
+      23,
+      29
+    ],
+    "link": ""
+  },
+  {
+    "id": 70,
+    "groupId": 15,
+    "name": "Pasteles de Belém",
+    "description": "Dulce típico",
+    "amount": 18.00,
+    "date": "2024-06-12T17:00:00",
+    "payerId": 30,
+    "participantIds": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 71,
+    "groupId": 18,
+    "name": "Delantales y gorros",
+    "description": "Uniforme del curso",
+    "amount": 50.00,
+    "date": "2024-03-12T16:30:00",
+    "payerId": 21,
+    "participantIds": [
+      1,
+      11,
+      21,
+      31,
+      41
+    ],
+    "link": ""
+  },
+  {
+    "id": 72,
+    "groupId": 19,
+    "name": "Suscripción Netflix",
+    "description": "Plan familiar",
+    "amount": 17.99,
+    "date": "2024-04-01T00:00:00",
+    "payerId": 28,
+    "participantIds": [
+      19,
+      22,
+      28,
+      32
+    ],
+    "link": ""
+  },
+  {
+    "id": 73,
+    "groupId": 23,
+    "name": "Entradas discoteca",
+    "description": "Salida del jueves",
+    "amount": 60.00,
+    "date": "2024-07-04T23:30:00",
+    "payerId": 15,
+    "participantIds": [
+      5,
+      15,
+      25,
+      35,
+      45
+    ],
+    "link": ""
+  },
+  {
+    "id": 74,
+    "groupId": 25,
+    "name": "Dominio y Hosting",
+    "description": "Renovación anual",
+    "amount": 120.00,
+    "date": "2024-07-10T11:00:00",
+    "payerId": 18,
+    "participantIds": [
+      4,
+      18,
+      22,
+      36
+    ],
+    "link": ""
+  },
+  {
+    "id": 75,
+    "groupId": 28,
+    "name": "Campaña de donación",
+    "description": "Flyers y carteles",
+    "amount": 70.00,
+    "date": "2024-04-10T12:00:00",
+    "payerId": 23,
+    "participantIds": [
+      1,
+      23,
+      45,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 76,
+    "groupId": 29,
+    "name": "Cena Mexicana",
+    "description": "Restaurante 'El Grito'",
+    "amount": 140.00,
+    "date": "2024-05-30T21:00:00",
+    "payerId": 22,
+    "participantIds": [
+      11,
+      22,
+      33,
+      44,
+      49
+    ],
+    "link": ""
+  },
+  {
+    "id": 77,
+    "groupId": 30,
+    "name": "Clases de snowboard",
+    "description": "2 horas para principiantes",
+    "amount": 150.00,
+    "date": "2024-02-10T10:00:00",
+    "payerId": 26,
+    "participantIds": [
+      26,
+      36
+    ],
+    "link": ""
+  },
+  {
+    "id": 78,
+    "groupId": 1,
+    "name": "Alquiler Abril",
+    "description": "Pago mensual del piso",
+    "amount": 1200.00,
+    "date": "2024-04-05T10:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 79,
+    "groupId": 2,
+    "name": "Souvenirs",
+    "description": "Recuerdos para la familia",
+    "amount": 80.00,
+    "date": "2024-02-23T18:00:00",
+    "payerId": 6,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 80,
+    "groupId": 3,
+    "name": "Bebidas post-partido",
+    "description": "Bar deportivo",
+    "amount": 45.00,
+    "date": "2024-04-20T22:00:00",
+    "payerId": 19,
+    "participantIds": [
+      3,
+      7,
+      13,
+      19,
+      25,
+      30
+    ],
+    "link": ""
+  },
+  {
+    "id": 81,
+    "groupId": 4,
+    "name": "Amigo invisible",
+    "description": "Regalos",
+    "amount": 100.00,
+    "date": "2023-12-20T19:00:00",
+    "payerId": 14,
+    "participantIds": [
+      4,
+      8,
+      14,
+      20,
+      26
+    ],
+    "link": ""
+  },
+  {
+    "id": 82,
+    "groupId": 6,
+    "name": "Cena en el pueblo",
+    "description": "Mesón 'La Casona'",
+    "amount": 160.00,
+    "date": "2024-04-06T21:00:00",
+    "payerId": 4,
+    "participantIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "link": ""
+  },
+  {
+    "id": 83,
+    "groupId": 11,
+    "name": "Proteínas y suplementos",
+    "description": "Tienda de nutrición",
+    "amount": 70.00,
+    "date": "2024-06-03T12:00:00",
+    "payerId": 46,
+    "participantIds": [
+      44,
+      46,
+      48,
+      50
+    ],
+    "link": ""
+  },
+  {
+    "id": 84,
+    "groupId": 12,
+    "name": "Merchandising de la banda",
+    "description": "Camisetas",
+    "amount": 90.00,
+    "date": "2024-05-15T23:00:00",
+    "payerId": 6,
+    "participantIds": [
+      2,
+      6,
+      8
+    ],
+    "link": ""
+  },
+  {
+    "id": 85,
+    "groupId": 13,
+    "name": "Postres",
+    "description": "Tartas caseras",
+    "amount": 30.00,
+    "date": "2024-06-01T13:00:00",
+    "payerId": 7,
+    "participantIds": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "link": ""
+  },
+  {
+    "id": 86,
+    "groupId": 18,
+    "name": "Vino para maridar",
+    "description": "Tienda especializada",
+    "amount": 40.00,
+    "date": "2024-03-12T16:45:00",
+    "payerId": 31,
+    "participantIds": [
+      1,
+      11,
+      21,
+      31,
+      41
+    ],
+    "link": ""
+  },
+  {
+    "id": 87,
+    "groupId": 19,
+    "name": "Compra conjunta de limpieza",
+    "description": "Productos para el mes",
+    "amount": 45.00,
+    "date": "2024-05-02T18:00:00",
+    "payerId": 32,
+    "participantIds": [
+      19,
+      22,
+      28,
+      32
+    ],
+    "link": ""
+  },
+  {
+    "id": 88,
+    "groupId": 20,
+    "name": "Parking",
+    "description": "Aparcamiento para los 3 días",
+    "amount": 45.00,
+    "date": "2024-04-10T14:00:00",
+    "payerId": 27,
+    "participantIds": [
+      7,
+      17,
+      27,
+      37,
+      47
+    ],
+    "link": ""
+  },
+  {
+    "id": 89,
+    "groupId": 22,
+    "name": "Paella",
+    "description": "Chiringuito 'La Dorada'",
+    "amount": 100.00,
+    "date": "2024-06-22T14:00:00",
+    "payerId": 33,
+    "participantIds": [
+      3,
+      23,
+      33,
+      43,
+      49
+    ],
+    "link": ""
+  },
+  {
+    "id": 90,
+    "groupId": 24,
+    "name": "Almuerzo en refugio",
+    "description": "Bocadillos y bebida",
+    "amount": 80.00,
+    "date": "2024-07-01T13:00:00",
+    "payerId": 24,
+    "participantIds": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48
+    ],
+    "link": ""
+  },
+  {
+    "id": 91,
+    "groupId": 26,
+    "name": "Vuelos internos",
+    "description": "Vuelo Bangkok - Chiang Mai",
+    "amount": 150.00,
+    "date": "2024-03-10T15:00:00",
+    "payerId": 39,
+    "participantIds": [
+      9,
+      29,
+      39
+    ],
+    "link": ""
+  },
+  {
+    "id": 92,
+    "groupId": 27,
+    "name": "Reparación amplificador",
+    "description": "Técnico de sonido",
+    "amount": 100.00,
+    "date": "2024-04-15T17:00:00",
+    "payerId": 34,
+    "participantIds": [
+      12,
+      20,
+      34,
+      44
+    ],
+    "link": ""
+  },
+  {
+    "id": 93,
+    "groupId": 1,
+    "name": "Alquiler Mayo",
+    "description": "Pago mensual del piso",
+    "amount": 1200.00,
+    "date": "2024-05-05T10:00:00",
+    "payerId": 1,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 94,
+    "groupId": 1,
+    "name": "Bombillas nuevas",
+    "description": "Ferretería",
+    "amount": 15.00,
+    "date": "2024-05-10T19:00:00",
+    "payerId": 10,
+    "participantIds": [
+      1,
+      5,
+      10,
+      15
+    ],
+    "link": ""
+  },
+  {
+    "id": 95,
+    "groupId": 2,
+    "name": "Gelatos",
+    "description": "Heladería 'Giolitti'",
+    "amount": 30.00,
+    "date": "2024-02-22T16:00:00",
+    "payerId": 2,
+    "participantIds": [
+      2,
+      6,
+      12,
+      18,
+      24
+    ],
+    "link": ""
+  },
+  {
+    "id": 96,
+    "groupId": 30,
+    "name": "Chocolate caliente",
+    "description": "Cafetería en pistas",
+    "amount": 35.00,
+    "date": "2024-02-11T16:00:00",
+    "payerId": 36,
+    "participantIds": [
+      6,
+      16,
+      26,
+      36,
+      46
+    ],
+    "link": ""
+  },
+  {
+    "id": 97,
+    "groupId": 8,
+    "name": "Pizza para todos",
+    "description": "Almuerzo en la oficina",
+    "amount": 60.00,
+    "date": "2024-07-12T13:30:00",
+    "payerId": 38,
+    "participantIds": [
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "link": ""
+  },
+  {
+    "id": 98,
+    "groupId": 11,
+    "name": "Inscripción carrera popular",
+    "description": "10K de la ciudad",
+    "amount": 105.00,
+    "date": "2024-07-01T10:00:00",
+    "payerId": 49,
+    "participantIds": [
+      45,
+      47,
+      49
+    ],
+    "link": ""
+  },
+  {
+    "id": 99,
+    "groupId": 14,
+    "name": "Comunidad de vecinos",
+    "description": "Pago trimestral",
+    "amount": 150.00,
+    "date": "2024-07-01T09:00:00",
+    "payerId": 5,
+    "participantIds": [
+      5,
+      23,
+      29
+    ],
+    "link": ""
+  },
+  {
+    "id": 100,
+    "groupId": 29,
+    "name": "Cena de despedida",
+    "description": "Restaurante 'La Cava'",
+    "amount": 200.00,
+    "date": "2024-06-28T22:00:00",
+    "payerId": 49,
+    "participantIds": [
+      11,
+      22,
+      33,
+      44,
+      49
+    ],
+    "link": ""
+  }
 ]
